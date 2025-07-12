@@ -1,41 +1,26 @@
-# **Building a .NET news aggregator site**
-
-Let's try to build a simple .NET news aggregator site using Python, Hugo and a scheduled Github Action.
-
-This repository contains the site source code. The published code can be found in this another GitHub repository:
-- https://github.com/scott-weeden/mymultnomahbar-news-site
-
-# **Multnomah Bar site**
-
-The site is published in the following uri:
-- https://www.multnomahbar.com
-
-This site is an automated news aggregator. It fetches news from multiple RSS feeds, presenting them all on a single page for your convenience. 
-
-The site is automatically updated every 3 hours with the latest news from various RSS feeds.
-
-There is also a lot of interesting .NET content in Youtube, that's why this site also contains a videos section. This section is automatically updated once every day at 07:15 AM (UTC) with the videos posted the day before.
-
-# **Contribute**
++++
+title = "Contribute"
+date = "2024-02-28"
++++
 
 Do you create content related to .NET? We're thrilled to welcome you!
 
 Even if your content isn't strictly about .NET, but focuses on software development, cloud computing, AI, or any other tech-related subject, we're excited to feature your posts here!
 
-## How to add your site
+# How to add your site
 
-### Prerequisite
+## Prerequisite
 
 - A functioning RSS feed or a Youtube Channel that can be accessed via the Internet.
 
-### Enrollment Process
+## Enrollment Process
 
 1 - Visit my Github repository: https://github.com/scott-weeden/building-a-legal-news-aggregator-site
 
 2 - The ``/data`` folder contain the current feeds utilized by this site.
 
 3 - Create a new ``yml`` file with the following attributes:
- - ``Feed (required)``: The URL of the RSS feed.
+ - ``Feed (required)``: The URL of the RSS feed or the Youtube channel.
  - ``Title (required)``: The name of your site.
  - ``Website (required)``: The URL of your site.
  - ``Description (optional)``:  A brief description of your site's content.

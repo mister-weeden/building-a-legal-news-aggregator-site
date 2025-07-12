@@ -58,7 +58,7 @@ def generate_hugo_content(news_items):
         today = datetime.today().strftime("%d_%m_%Y")
         # today = datetime.today() - timedelta(7)
         # today = today.strftime("%d_%m_%Y")
-        directory = f"site/dotnetramblings/content/post/{today}"
+        directory = f"site/multnomahbar/content/post/{today}"
 
         if not os.path.exists(directory):
                 os.makedirs(directory)

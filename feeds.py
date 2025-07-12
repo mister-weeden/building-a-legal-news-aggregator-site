@@ -14,7 +14,7 @@ for file_path in file_paths:
 
 feeds = sorted(feeds, key=lambda x: x['Title'])  
   
-with open('site/dotnetramblings/content/feeds.md', 'w') as file:  
+with open('site/multnomahbar/content/feeds.md', 'w') as file:  
     file.write('---\n')  
     file.write('layout: feeds\n')  
     file.write('feeds:\n')  

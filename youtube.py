@@ -104,7 +104,7 @@ def generate_hugo_content(video_items):
         md = convert_rss_data_to_md(item)        
         yesterday = datetime.today() - timedelta(days=1)
         yesterday = yesterday.strftime("%d_%m_%Y")
-        directory = f"site/dotnetramblings/content/videos/{yesterday}"
+        directory = f"site/multnomahbar/content/videos/{yesterday}"
 
         if not os.path.exists(directory):
                 os.makedirs(directory)

@@ -2,7 +2,7 @@ import os
 from datetime import datetime, timedelta 
 import shutil 
   
-base_paths = ["./site/dotnetramblings/content/videos"]
+base_paths = ["./site/multnomahbar/content/videos"]
 
 for base_path in base_paths:  
     for dir_name in os.listdir(base_path):  
